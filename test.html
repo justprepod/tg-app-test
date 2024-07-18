@@ -1,0 +1,10 @@
+<script language="JavaScript">
+	function f(){
+	    let cnt = localStorage.getItem("counter") || 0;
+	    cnt++;
+	    localStorage.setItem("counter", cnt);
+	    alert(cnt);
+	}
+</script>
+
+<div onclick="f()">aaa</div>
